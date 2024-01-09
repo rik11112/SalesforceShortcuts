@@ -7,11 +7,11 @@
         "activeTab"
     ],
     "browser_action": {
-        "default_icon": "https://ittesit.be/apple-touch-icon-192x192-precomposed.png",
+        "default_icon": "itteslogo.png",
         "default_popup": "popup.html"
     },
     "icons": {
-        "192": "https://ittesit.be/apple-touch-icon-192x192-precomposed.png"
+        "192": "itteslogo.png"
     },
     "content_scripts": [
         {
