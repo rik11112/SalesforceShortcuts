@@ -1,5 +1,5 @@
 # SalesforceShortcuts
-A simple extension with working salesforce shortcuts.
+A simple extension with working salesforce shortcuts. I noticed the shortcuts in salesforce don't always work, so I wrote this quick extension to get the most important ones working all the time. I might add more shortcuts in the future.
 
 ## How to install
 To install the extension, follow these steps:
