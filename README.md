@@ -5,7 +5,7 @@ A simple extension with working salesforce shortcuts. I noticed the shortcuts in
 To install the extension, follow these steps:
 
 1. Click on the following link to download the extension ZIP file:
-    [![Download ZIP](https://img.shields.io/badge/Download-ZIP-brightgreen?logo=github)](https://github.com/rik11112/SalesforceShortcuts/releases/latest/download/extension.zip)
+    [![Download Latest ZIP](https://img.shields.io/badge/Download-ZIP-brightgreen?logo=github)](https://github.com/rik11112/SalesforceShortcuts/releases/latest/download/extension.zip)
 
 2. Open your Chrome browser and go to the Extensions page. You can access this page by typing `chrome://extensions` in the address bar.
 
