@@ -7,11 +7,11 @@
         "activeTab"
     ],
     "browser_action": {
-        "default_icon": "itteslogo.png",
+        "default_icon": "img/itteslogo.png",
         "default_popup": "popup.html"
     },
     "icons": {
-        "192": "itteslogo.png"
+        "192": "img/itteslogo.png"
     },
     "content_scripts": [
         {
