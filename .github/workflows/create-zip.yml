@@ -1,0 +1,27 @@
+name: Create ZIP Release
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Create ZIP file
+      run: |
+        cd $GITHUB_WORKSPACE
+        zip -r extension.zip .
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Upload ZIP file
+      uses: actions/upload-artifact@v2
+      with:
+        name: extension
+        path: extension.zip
