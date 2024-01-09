@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Salesforce Shortcuts",
+    "version": "1.0",
+    "description": "Simple extension that provides working Salesforce Shortcuts.",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "https://ittesit.be/apple-touch-icon-192x192-precomposed.png",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "192": "https://ittesit.be/apple-touch-icon-192x192-precomposed.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.force.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
