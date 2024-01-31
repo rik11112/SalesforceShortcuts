@@ -1,13 +1,17 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Salesforce Shortcuts",
     "version": "1.0",
     "description": "Simple extension that provides working Salesforce Shortcuts.",
     "permissions": [
         "activeTab"
     ],
-    "browser_action": {
-        "default_icon": "img/itteslogo.png",
+    "action": {
+        "default_icon": {
+            "16": "img/itteslogo.png",
+            "48": "img/itteslogo.png",
+            "128": "img/itteslogo.png"
+        },
         "default_popup": "popup.html"
     },
     "icons": {
