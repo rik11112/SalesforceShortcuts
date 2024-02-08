@@ -28,9 +28,9 @@
         },
         {
             "matches": [
-                "*://grobet--dev.sandbox.lightning.force.com/lightning/o/Product2/*",
-                "*://grobet--uat.sandbox.lightning.force.com/lightning/o/Product2/*",
-                "*://grobet.lightning.force.com/lightning/o/Product2/*"
+                "*://grobet--dev.sandbox.lightning.force.com/*",
+                "*://grobet--uat.sandbox.lightning.force.com/*",
+                "*://grobet.lightning.force.com/*"
             ],
             "js": [
                 "custom/grobet-product2.js"
