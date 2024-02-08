@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Salesforce Shortcuts",
+    "name": "Grobet Shortcuts",
     "version": "1.0",
-    "description": "Simple extension that provides working Salesforce Shortcuts.",
+    "description": "Shortcuts voor Grobet.",
     "permissions": [
         "activeTab"
     ],
