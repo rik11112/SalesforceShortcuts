@@ -4,7 +4,8 @@
     "version": "1.0",
     "description": "Simple extension that provides working Salesforce Shortcuts.",
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage"
     ],
     "action": {
         "default_icon": {
