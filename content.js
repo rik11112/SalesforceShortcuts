@@ -7,18 +7,19 @@ document.addEventListener('keydown', function (event) {
         if (succes) {
             event.preventDefault();
         }
-    }
-});
-
-document.addEventListener('keydown', function (event) {
-    if (event.ctrlKey && event.key === 'm') {
+    } else if (event.ctrlKey && event.key === 'm') {
         const succes = tryClickAppLauncher();
         if (succes) {
             event.preventDefault();
         }
+    } else if (event.ctrlKey && event.key === 'Enter') {
+        const firstItem = document.querySelector('#setupComponent > div.setupcontent > div > div.scroller.uiScroller.scroller-wrapper.scroll-bidirectional.native > div > table > tbody > tr > th > a')
+        if (firstItem) {
+            event.preventDefault();
+            firstItem.click();
+        }
     }
 });
-
 function tryActionsUntilSuccess(actions) {
     return actions.some(action => action());
 }
